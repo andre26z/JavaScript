@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head>
+        <title>Apostila JavaScript Progressivo</title>
+   
+      </head>
+      <body>
+         Tabuada do número: <input id="num" type="number"> <br />
+         <button onclick="tabuada()">Exibir</button><br />
+         Tabuada: <br />
+         <div id='resposta' style='display:inline'></div>
+      </body>
+     </html>
+    <script>
+ function tabuada(){
+  var num = Number(document.getElementById("num").value);
+  var resposta = document.getElementById('resposta');
+  var tabuada='';
+  
+
+  for(var count=1; count<=10 ; count++) {
+   tabuada += num+" x "+count+" = "+num*count+"<br />";
+  
+  resposta.innerHTML = tabuada;
+  }  
+}
+
+    </script>
+</body>
+</html>

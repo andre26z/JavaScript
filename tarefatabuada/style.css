@@ -1,0 +1,15 @@
+@charset "UTF-8";
+* {
+    text-align: center;
+}
+body {
+    background-color: yellowgreen;
+}
+main {
+    background-color: white;
+    width: 350px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    
+}

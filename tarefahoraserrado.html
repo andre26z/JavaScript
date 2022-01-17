@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1> Em que horas você está vendo isso?</h1>
+
+<body>
+<input type="number" name="txtvel" id="txtvel">
+<input type="button" value="Verificar" onclick="calcular()">
+<div id="res"> 
+</div>
+
+<script>
+function calcular() {
+var txtv = window.document.querySelector('input#txtvel')
+var res = window.document.querySelector('div#res')
+var horas = Number(txtv.value) 
+
+if (horas <= 12)  {
+     res.innerHTML = 'Bom Dia'
+
+}
+else if  (horas <= 19)  { 
+     res.innerHTML ='Boa Tarde' }
+
+else { 
+    res.innerHTML = 'Boa Noite'
+}
+}
+</script>
+</body>
+</html>
