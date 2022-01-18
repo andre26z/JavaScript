@@ -12,3 +12,6 @@ Testes com JS, HTML e CSS
 Um analisador de números
 Um pequeno site que mostra a hora atual de forma responsiva com Js e Css
 entre outros pequenos testes.
+
+
+Exemplo de projeto para analisar valores: <a href="https://andre26z.github.io/number-analyzer/index.html">
