@@ -1,4 +1,4 @@
-# JavaScript
+# Meu Repositório JavaScript
 Meu Repositório de HTML, CSS e JavaScript
 Exercícios para estudo
 
@@ -10,7 +10,7 @@ Exercícios que fiz como forma de estudo
 Estruturas de site
 Testes com JS, HTML e CSS
 Um analisador de números
-Um pequeno site que mostra a hora atual de forma responsiva com Js e Css
+Um pequeno site que mostra a hora atual de forma responsiva com Js e CSS
 entre outros pequenos testes.
 
 
