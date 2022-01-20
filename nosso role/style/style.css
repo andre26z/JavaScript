@@ -1,0 +1,12 @@
+body {
+    background-image: url('../imagens/fundoc1.png');
+    background-color: rgb(16, 141, 16);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 100px;
+        
+}
+
