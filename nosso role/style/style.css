@@ -41,33 +41,22 @@
     scroll-snap-type: y mandatory;
 }
 
-.navbar {
-    position:fixed;
-    top: 0;
-    z-index: 1;
-    display: flex;
-    width: 100px;
-    height: 60px;
-   
-        
-}
 
 .container1 .button {
     display: inline-block;
-    height: 50px;
+    height: 52px;
     width: 130px;
     margin: 0 8px;
     background-color: #fff;
     overflow:hidden;
     border-radius: 60px;
-    cursor: pointer;
+    cursor: pointer; 
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease-out;
     font-family: 'Poppins';
     position: relative;
-    
-   
-   
+ 
+  
           
 }
 .container1 .button:hover {
@@ -153,5 +142,19 @@ section#ph {
     font-family: 'ini';
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
+}
+
+.djs {
+    font-family: dj2;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+}
+.djp {
+    max-width: 450px;
+    max-height: 450px;
+    border-radius: 30px;
+    background-color: white;
 }
 
