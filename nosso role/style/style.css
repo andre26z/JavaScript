@@ -1,7 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+@font-face {
+    font-family: DJ1;
+    src: url('../fonts/djfont.ttf');
+}
+
+@font-face {
+    font-family: dj2;
+    src: url('../fonts/hangdj.ttf');
+}
+@font-face {
+    font-family: ini;
+    src: url('../fonts/LTWave-Light.ttf');
+}
+
 * {
     margin: 0;
     padding-top: 0;
-    
+   
+}
+:root{
+    --youtube:#ff0000;
+    --instragram:#e1306c;
 }
 
 #bd1{
@@ -32,7 +52,58 @@
         
 }
 
+.container1 .button {
+    display: inline-block;
+    height: 50px;
+    width: 130px;
+    margin: 0 8px;
+    background-color: #fff;
+    overflow:hidden;
+    border-radius: 60px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+    font-family: 'Poppins';
+    position: relative;
+    
+   
+   
+          
+}
+.container1 .button:hover {
+    width: 200px;
+}
 
+.container1 .button:hover .icon{
+    color: #fff;
+}
+.container1 .button:nth-child(1):hover .icon {
+    background-color: var(--instragram);
+}
+.container1 .button:nth-child(2):hover .icon {
+    background-color: var(--youtube);
+}
+.container1 .button .icon i {
+    font-size: 40px;
+    font-weight: 500px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+    transform: translateY(20%);
+    
+    
+}
+.container1 .button span {
+    font-size: 20px;
+    font-weight: 500px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+.container1 .button:nth-child(1):hover span {
+    color: var(--instragram);
+}
+.container1 .button:nth-child(2):hover span {
+    color: var(--youtube);
+}
 section {
     display: flex;
     flex-direction: column;
@@ -62,18 +133,25 @@ section#ph {
     no-repeat center center/cover;;
 
 }
-  
 
-.videowrapper {
-    position: sticky;
-    width: 80%;
-    height: 0;
-    padding-bottom: 56.27198%;
-    }
-.videowrapper iframe {
-    position: absolute;
-    left: 43.2vh;
-    bottom: 20vh;
-    width: 50%;
-    height: 50%;
-    }
+#hhome {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 5px 5px  black;
+    font-family: DJ1;
+    font-size: 30px;
+}
+#ini {
+    position: relative;
+    max-height: 650px;
+    max-width: 800px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 20px;
+    justify-content: center;
+    font-family: 'ini';
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+
