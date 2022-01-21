@@ -52,13 +52,13 @@ section#home {
 }
 
 section#ph {
-    background: url('')
+    background: url('../imagens/fundoph.jpg')
     no-repeat center center/cover;;
     
 }
 
 #te {
-    background: url('')
+    background: url('../imagens/fundote.jpg')
     no-repeat center center/cover;;
 
 }
@@ -72,7 +72,7 @@ section#ph {
     }
 .videowrapper iframe {
     position: absolute;
-    left: 45vh;
+    left: 43.2vh;
     bottom: 20vh;
     width: 50%;
     height: 50%;
