@@ -1,13 +1,12 @@
 function descobrir(){
-var fila = document.getElementById("lista");
-var gole = document.getElementById("lista2");
-var value1 = fila.options[fila.selectedIndex].value;
-var value2 = gole.options[gole.selectedIndex].value;
+var lista1 = document.getElementById("lista1").value;
+var lista2 = document.getElementById("lista2").value;
+var res = document.getElementById("res");
 
 
-if (value1 % 2 == 0 && value2 % 2 == 0){
-   alert('Você ganhou um beijo na boca');
+
+if (lista1 % 2===0 && lista2 % 2===0) res.innerHTML='deu certo'; 
     
-}
-res.innerHTML('Você Ganhou um Beijo na Boca')
+
+else res.innerHTML='errado'
 }
