@@ -14,6 +14,6 @@ Um pequeno site que mostra a hora atual de forma responsiva com Js e CSS
 entre outros pequenos testes.
 
 
-Exemplo de projeto para analisar valores: <a href="https://andre26z.github.io/number-analyzer/index.html"> Number Analyzer </a>
+<a href="https://andre26z.github.io/number-analyzer/index.html"> Exemplo de projeto para analisar valores </a>
 
-Site da dupla nosso role: <a href="https://andre26z.github.io/nossorole/"> </a>
+ <a href="https://andre26z.github.io/nossorole/index.html"> Site da dupla nosso role </a>
