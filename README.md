@@ -16,4 +16,4 @@ entre outros pequenos testes.
 
 Exemplo de projeto para analisar valores: <a href="https://andre26z.github.io/number-analyzer/index.html"> Number Analyzer </a>
 
-Site da dupla nosso role: <a href="https://andre26z.github.io/nossorole/index.html"> </a>
+Site da dupla nosso role: <a href="https://andre26z.github.io/nossorole/"> </a>
