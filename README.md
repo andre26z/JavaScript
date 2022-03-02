@@ -16,4 +16,9 @@ entre outros pequenos testes.
 
 <a href="https://andre26z.github.io/number-analyzer/index.html"> Exemplo de projeto para analisar valores </a>
 
- <a href="https://andre26z.github.io/nossorole/index.html"> Site da dupla nosso role </a>
+<a href="https://andre26z.github.io/nossorole/index.html"> Site da dupla nosso role </a>
+
+<a href="https://https://andre26z.github.io/SISO/"> Site Clone SISO </a>
+
+<a href="https://andre26z.github.io/Galeria/"> Site Galeria NFT </a>
+
